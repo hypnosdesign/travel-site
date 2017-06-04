@@ -1,0 +1,31 @@
+.headline
+  font-weight: 300
+  font-size 1.8rem
+  color mainblue
+
+  +for_breakpoint(tablet)
+    font-size 2.7rem
+  &--orange
+    color orange
+    font-weight: 400
+  &--center
+    text-align center
+  &--small
+    font-size 1rem
+    +for_breakpoint(tablet)
+      font-size 1.8rem
+  &--narrow
+    max-width 280px
+    margin-left auto
+    margin-right auto
+    +for_breakpoint(tablet)
+      max-width 500px
+  &--light
+    font-weight: 100
+  &--b-margin
+    margin-bottom: 1.3rem
+    +for_breakpoint(tablet)
+      margin-bottom 2rem
+  &--no-t-margin
+    margin-top 0
+    

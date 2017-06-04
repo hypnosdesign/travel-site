@@ -1,0 +1,666 @@
+
+/* line 297 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/main.styl */
+
+/* line 1 : /Users/mattiapiano/Desktop/sites/travel-site/node_modules/stylus/lib/functions/index.styl */
+
+/* line 427 : /Users/mattiapiano/Desktop/sites/travel-site/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+/* normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* line 12 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+html {
+  line-height: 1.15; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* line 25 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/* line 39 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 52 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+figcaption,
+figure,
+main {
+/* 1 */
+  display: block;
+}
+
+/* line 62 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 71 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/* line 82 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* line 95 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+a {
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+}
+
+/* line 105 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/* line 115 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/* line 124 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/* line 134 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* line 145 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+dfn {
+  font-style: italic;
+}
+
+/* line 153 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/* line 162 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+small {
+  font-size: 80%;
+}
+
+/* line 171 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 179 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 183 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+sup {
+  top: -0.5em;
+}
+
+/* line 194 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+audio,
+video {
+  display: inline-block;
+}
+
+/* line 203 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 212 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+img {
+  border-style: none;
+}
+
+/* line 220 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 231 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+}
+
+/* line 244 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+button,
+input {
+/* 1 */
+  overflow: visible;
+}
+
+/* line 254 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+button,
+select {
+/* 1 */
+  text-transform: none;
+}
+
+/* line 265 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+}
+
+/* line 276 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/* line 288 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/* line 302 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/* line 316 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+progress {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/* line 325 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+textarea {
+  overflow: auto;
+}
+
+/* line 334 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/* line 344 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 354 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/* line 363 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 373 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* line 386 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+details,
+menu {
+  display: block;
+}
+
+/* line 395 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+summary {
+  display: list-item;
+}
+
+/* line 406 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+canvas {
+  display: inline-block;
+}
+
+/* line 414 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+template {
+  display: none;
+}
+
+/* line 425 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+[hidden] {
+  display: none;
+}
+
+/* line 2 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/normalize.styl */
+
+/* line 2 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/variables.styl */
+
+/* line 20 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/variables.styl */
+
+/* line 1 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/mixin.styl */
+
+/* line 31 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/mixin.styl */
+
+/* line 20 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/global.styl */
+
+/* line 1 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/global.styl */
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+}
+
+/* line 4 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/global.styl */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 8 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/global.styl */
+li,
+ol {
+  list-style: none;
+}
+
+/* line 11 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/global.styl */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 15 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/global.styl */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* line 18 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/global.styl */
+b {
+  font-weight: 800;
+}
+
+/* line 21 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/global.styl */
+.cf,
+.row {
+  zoom: 1;
+}
+
+/* line 23 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/global.styl */
+.cf:after,
+.row:after,
+.cf:before,
+.row:before {
+  content: '';
+  display: table;
+}
+
+/* line 27 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/global.styl */
+.cf:after,
+.row:after {
+  clear: both;
+}
+
+/* line 30 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/global.styl */
+.no-t-margin {
+  margin-top: 0;
+}
+
+/* line 36 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/global.styl */
+
+/* line 31 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/large_hero.styl */
+
+/* line 1 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/large_hero.styl */
+.large-hero {
+  position: relative;
+  text-align: center;
+  border-bottom: 10px solid #1a75ff;
+}
+
+/* line 5 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/large_hero.styl */
+.large-hero__textcontent {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 100%;
+}
+
+/* line 11 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/large_hero.styl */
+.large-hero__title {
+  font-weight: 300;
+  color: #1a75ff;
+  font-size: 2.5rem;
+  margin: 0;
+}
+@media only screen and (min-width: 601px) {
+
+/* line 11 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/mixin.styl */
+  .large-hero__title {
+    font-size: 4.8rem;
+  }
+}
+
+/* line 18 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/large_hero.styl */
+.large-hero__subtitle {
+  font-weight: 300;
+  color: #1a75ff;
+  font-size: 1.6rem;
+  margin: 0;
+}
+@media only screen and (min-width: 601px) {
+
+/* line 11 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/mixin.styl */
+  .large-hero__subtitle {
+    font-size: 3rem;
+  }
+}
+
+/* line 25 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/large_hero.styl */
+.large-hero__description {
+  font-weight: 300;
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+  font-size: 1.2rem;
+}
+@media only screen and (min-width: 601px) {
+
+/* line 11 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/mixin.styl */
+  .large-hero__description {
+    font-size: 1.875rem;
+  }
+}
+
+/* line 35 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/large_hero.styl */
+.large-hero__image {
+  display: block;
+}
+
+/* line 12 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/large_hero.styl */
+
+/* line 1 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/button.styl */
+
+/* line 1 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/button.styl */
+.btn {
+  display: inline-block;
+  padding: 1rem 1.3rem;
+  color: #fff;
+  background-color: #1a75ff;
+  text-decoration: none;
+}
+
+/* line 7 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/button.styl */
+.btn--orange {
+  background-color: #ffa500;
+}
+
+/* line 9 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/button.styl */
+.btn--large {
+  font-size: 1.1em;
+}
+@media only screen and (min-width: 601px) {
+
+/* line 11 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/mixin.styl */
+  .btn--large {
+    font-size: 1.3em;
+  }
+}
+
+/* line 15 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/button.styl */
+
+/* line 1 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/wrapper.styl */
+
+/* line 1 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/wrapper.styl */
+.wrapper {
+  padding: 0 1em;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* line 6 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/wrapper.styl */
+.wrapper--b-margin {
+  margin-bottom: 3em;
+}
+@media only screen and (min-width: 601px) {
+
+/* line 11 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/mixin.styl */
+  .wrapper {
+    margin-bottom: 5em;
+  }
+}
+
+/* line 10 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/wrapper.styl */
+.wrapper img {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
+@media only screen and (min-width: 601px) {
+
+/* line 11 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/mixin.styl */
+  .wrapper {
+    padding: 0 2em;
+  }
+}
+
+/* line 8 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/wrapper.styl */
+
+/* line 1 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/page-section.styl */
+
+/* line 1 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/page-section.styl */
+.page-section {
+  padding: 1.3em 0;
+}
+@media only screen and (min-width: 601px) {
+
+/* line 11 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/mixin.styl */
+  .page-section {
+    padding: 4em 0;
+  }
+}
+
+/* line 6 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/page-section.styl */
+.page-section--blue {
+  background-color: #1a75ff;
+  color: #fff;
+}
+
+/* line 30 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/page-section.styl */
+
+/* line 1 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/headlines.styl */
+
+/* line 1 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/headlines.styl */
+.headline {
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #1a75ff;
+}
+@media only screen and (min-width: 601px) {
+
+/* line 11 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/mixin.styl */
+  .headline {
+    font-size: 2.7rem;
+  }
+}
+
+/* line 8 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/headlines.styl */
+.headline--orange {
+  color: #ffa500;
+  font-weight: 400;
+}
+
+/* line 11 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/headlines.styl */
+.headline--center {
+  text-align: center;
+}
+
+/* line 13 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/headlines.styl */
+.headline--small {
+  font-size: 1rem;
+}
+@media only screen and (min-width: 601px) {
+
+/* line 11 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/mixin.styl */
+  .headline--small {
+    font-size: 1.8rem;
+  }
+}
+
+/* line 17 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/headlines.styl */
+.headline--narrow {
+  max-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (min-width: 601px) {
+
+/* line 11 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/mixin.styl */
+  .headline--narrow {
+    max-width: 500px;
+  }
+}
+
+/* line 23 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/headlines.styl */
+.headline--light {
+  font-weight: 100;
+}
+
+/* line 25 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/headlines.styl */
+.headline--b-margin {
+  margin-bottom: 1.3rem;
+}
+@media only screen and (min-width: 601px) {
+
+/* line 11 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/mixin.styl */
+  .headline--b-margin {
+    margin-bottom: 2rem;
+  }
+}
+
+/* line 29 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/headlines.styl */
+.headline--no-t-margin {
+  margin-top: 0;
+}
+
+/* line 1 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/headlines.styl */
+
+/* line 1 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/row.styl */
+
+/* line 1 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/row.styl */
+.row {
+  width: 100%;
+  padding: 0 2em;
+  text-align: center;
+}
+@media only screen and (min-width: 801px) {
+
+/* line 8 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/row.styl */
+  .row--1,
+  .row--2,
+  .row--3,
+  .row--4,
+  .row--5,
+  .row--6,
+  .row--7,
+  .row--8,
+  .row--9,
+  .row--10,
+  .row--11,
+  .row--12 {
+    float: left;
+    padding-right: 40px;
+  }
+
+/* line 24 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/row.styl */
+  .row--4 {
+    width: 33.33%;
+    padding-bottom: 1.2rem;
+  }
+
+/* line 29 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/row.styl */
+  .row--8 {
+    width: 66.66%;
+  }
+}
+@media only screen and (min-width: 601px) {
+
+/* line 32 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/row.styl */
+  .row--4--at-medium {
+    margin-bottom: 0;
+  }
+}
+
+/* line 9 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/row.styl */
+
+/* line 1 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/generic-content-container.styl */
+
+/* line 1 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/generic-content-container.styl */
+
+/* line 2 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/generic-content-container.styl */
+.generic-content-container p {
+  line-height: 1.65;
+}
+@media only screen and (min-width: 601px) {
+
+/* line 11 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/global/mixin.styl */
+  .generic-content-container p {
+    font-size: 1.125rem;
+  }
+}
+
+/* line 6 : /Users/mattiapiano/Desktop/sites/travel-site/src/styl/modules/generic-content-container.styl */
+.generic-content-container p a {
+  font-weight: 700;
+  color: #ffa500;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=main.css.map */

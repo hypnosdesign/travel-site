@@ -19,6 +19,30 @@
   "homepage": "https://github.com/hypnosdesign/travel-site#readme",
   "dependencies": {
     "jquery": "^3.2.1",
-    "normalize.css": "^7.0.0"
+    "normalize.css": "^7.0.0",
+    "save-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "browser-sync": "^2.18.12",
+    "cssnano": "^3.10.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-beautify": "^2.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-stylus": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "plumber": "^0.4.8",
+    "postcss-import": "^10.0.0",
+    "poststylus": "^0.2.3",
+    "rucksack-css": "^0.9.1",
+    "yargs": "^8.0.1"
   }
 }
