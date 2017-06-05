@@ -1,7 +1,8 @@
 .row
-  width 100%
+  width 70%
   padding 0 2em
-  text-align center
+  margin 0 auto
+  //text-align center
   +for_breakpoint(desktop)
     @extend .cf
     //margin-right -40px
@@ -23,11 +24,20 @@
   
     &--4
       width 33.33%
-      padding-bottom 1.2rem
-      
-      
+    &--6
+      width 50%
     &--8
       width 66.66%
+    
+    &--gutters
+      margin-right -65px
+      & > div
+        padding-right 65px
+      &_large
+        margin-right -100px
+      &-large > div
+        padding-right 100px
+
 +for_breakpoint(tablet)
   .row--4--at-medium
     margin-bottom 0
